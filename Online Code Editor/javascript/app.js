@@ -1,5 +1,5 @@
 var j=0;
-//Function for live Rendering
+//Live Rendering
 function update(i) {
 	if(i==0){
 	let htmlCode=document.getElementById("htmlCode").value;
