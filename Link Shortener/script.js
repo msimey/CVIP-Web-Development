@@ -9,7 +9,6 @@ fetch(`https://api.shrtco.de/v2/shorten?url=${longurl}`)
 .then((resp)=>resp.json())
 .then((value)=>{
    shorten_link.value=value.result.short_link;
-
 })
 .catch((error)=>{
     shorten_link.value="something went wrong";
